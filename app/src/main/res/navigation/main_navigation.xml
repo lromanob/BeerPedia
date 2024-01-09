@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/beers"
+    app:startDestination="@id/beersFragment">
+
+    <fragment
+        android:id="@+id/beersFragment"
+        android:name="it.demo.satispay.beerbox.ui.fragment.BeerListFragment"
+        tools:layout="@layout/fragment_beer_list">
+        <action
+            android:id="@+id/action_beers_to_beerDetail"
+            app:destination="@id/beerDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <dialog
+        android:id="@+id/beerDetailFragment"
+        android:name="it.demo.satispay.beerbox.ui.fragment.BeerDetailBottomsheetFragment"
+        tools:layout="@layout/fragment_beer_detail_bottomsheet" >
+        <argument
+            android:name="beer"
+            app:nullable="false"
+            app:argType="it.demo.satispay.beerbox.models.BeerItem" />
+<!--        <action-->
+<!--            android:id="@+id/action_beerDetail_to_beers"-->
+<!--            app:destination="@id/beersFragment" />-->
+    </dialog>
+</navigation>

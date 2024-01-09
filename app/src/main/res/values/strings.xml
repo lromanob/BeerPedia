@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BeerPedia</string>
+    <string name="action_settings">Settings</string>
+    <string name="beer_item_more_info">More Info</string>
+    <string name="beer_item_descr">It\'s rumoured just a drop can calm the fiercest of storms. A balance of sweet...</string>
+    <string name="beer_item_type_example">Ocean Fermented Lager</string>
+    <string name="beer_item_title_example">Sunk Punk</string>
+    <string name="text_pedia">Pedia</string>
+    <string name="text_beer">Beer</string>
+    <string name="text_hint_search">Search</string>
+    <string name="text_offer_descr">Free shipping on orders over 60€</string>
+    <string name="text_offer_title">Weekend Offers</string>
+    <string name="beer_image">Beer Image</string>
+
+    <string name="retry">Retry</string>
+    <string name="plus">+</string>
+    <string name="add_hint">Add the current filter to favorites</string>
+    <string name="undo">Undo</string>
+    <string name="element_deleted">Element %1$s deleted.</string>
+    <string name="added_2fav">Added to Favorite search</string>
+</resources>
