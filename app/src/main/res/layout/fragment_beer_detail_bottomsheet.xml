@@ -7,7 +7,7 @@
 
         <variable
             name="beer"
-            type="it.demo.satispay.beerbox.models.BeerItem" />
+            type="lromanob.beerbox.models.BeerItem" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

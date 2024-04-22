@@ -11,7 +11,7 @@ plugins{
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "it.demo.satispay.beerbox"
+        applicationId "it.demo.lromanob.beerbox"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 2
@@ -36,7 +36,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'it.demo.satispay.beerbox'
+    namespace 'it.demo.lromanob.beerbox'
 }
 
 dependencies {
