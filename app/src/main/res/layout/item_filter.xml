@@ -6,7 +6,7 @@
 
         <variable
             name="filter"
-            type="lromanob.beerbox.models.db.Word" />
+            type="it.demo.lromanob.beerbox.models.db.Word" />
     </data>
 
     <LinearLayout
