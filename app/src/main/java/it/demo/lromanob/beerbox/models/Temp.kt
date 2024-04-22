@@ -1,0 +1,15 @@
+package it.demo.lromanob.beerbox.models
+
+import android.os.Parcelable
+import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class Temp(
+
+    @field:SerializedName("unit")
+    val unit: String? = null,
+
+    @field:SerializedName("value")
+    val value: Int? = null
+): Parcelable
